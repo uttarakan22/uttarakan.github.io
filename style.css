@@ -50,7 +50,12 @@ body {
   font-weight: 400;
   font-size: 16px;
   position: relative;
-  z-index: auto; }
+  z-index: auto; 
+    background: #e8cbc0;
+    background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+    background: linear-gradient(to right, #e8cbc0, #636fa4);
+    min-height: 100vh;
+}
 
 h1,
 h2,
@@ -1606,7 +1611,43 @@ input:required {
     visibility: visible; }
     .single-portfolio-content:hover .hover-content a, .single-portfolio-content:focus .hover-content a {
       margin-top: -26px; }
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
 
+.social-link:hover, .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
+/*::-team*/
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
 /* :: 16.0 Contact CSS */
 .alime-contact-form .form-control {
   -webkit-transition-duration: 500ms;
